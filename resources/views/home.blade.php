@@ -13,8 +13,24 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                    <div class="row">
+                        @forelse ($products as $product)
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <a class="navbar-brand" href="products/{{$product->id}}">
+                                        <img class="card-img-top" src="img/{{$product->photo}}" alt="Card image cap">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{$product->name}}</h5>
+                                        <p class="card-text">{{$product->description}}</p>  
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        @empty
+                            <p>Nenhum produto cadastrado.</p>
+                        @endforelse
+                    </div>
                 </div>
             </div>
         </div>
