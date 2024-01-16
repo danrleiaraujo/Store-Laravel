@@ -1,5 +1,5 @@
 <h1> Store-Laravel</h1>
-<p align="justify">Bem-vindo ao repositório do Store-Laravel! Este projeto foi desenvolvido como parte de um curso de aprendizagem do Laravel, utilizando a versão 7.x do framework PHP (versão 7.2). Aqui você encontrará um sistema quase completo de mostruário de roupas, com recursos como criação de conta, login, adição, edição e remoção de produtos, além da opção de sair da conta.</p>
+<p align="justify">Bem-vindo ao repositório do Store-Laravel. Este projeto foi desenvolvido como parte de um curso de aprendizagem do Laravel, utilizando a versão 7.x do framework PHP (versão 7.2). Aqui você encontrará um sistema quase completo de mostruário de roupas, com recursos como criação de conta, login, adição, edição e remoção de produtos, além da opção de sair da conta.</p>
 <div id="sumario">
     <h1>Sumário</h1>
 	<ul>
@@ -22,7 +22,7 @@
 Certifique-se de que seu ambiente atenda aos seguintes requisitos antes de iniciar:
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Laravel](https://laravel.com/docs/7.x/installation), [Composer](https://getcomposer.org/download), [PHP](https://www.php.net/downloads), versão > 7 e [SQLite3](https://www.sqlite.org/download.html). 
+[Git](https://git-scm.com), [Laravel](https://laravel.com/docs/7.x/installation), [Composer](https://getcomposer.org/download), [PHP](https://www.php.net/downloads) versão > 7 e [SQLite3](https://www.sqlite.org/download.html). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 <h2 id="instalacao">🎲 Instalação</h2>
